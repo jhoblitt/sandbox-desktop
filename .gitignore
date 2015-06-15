@@ -1,0 +1,4 @@
+*.lock
+.librarian
+.tmp
+modules
