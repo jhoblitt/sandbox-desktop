@@ -3,6 +3,7 @@ class site::profile::base {
   include ::sysstat
   include ::irqbalance
   include ::wget
+  include ::ntp
 
   if $::osfamily == 'RedHat' and $::operatingsystem != 'Fedora' {
     include ::epel
