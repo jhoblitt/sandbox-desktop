@@ -28,5 +28,8 @@ mod 'puppetlabs/ntp',
   :git => 'git@github.com:jhoblitt/puppetlabs-ntp.git',
   :ref => 'feature/fedora-support'
 
+mod 'rcoleman/hipchat',
+  :git => 'git@github.com:jhoblitt/puppet-module-hipchat.git',
+  :ref => 'feature/fedora-support'
 
 mod 'jhoblitt/site', :path => './site'

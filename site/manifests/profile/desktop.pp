@@ -1,4 +1,6 @@
 class site::profile::desktop {
+  include ::hipchat
+
   class { 'selinux': mode       => 'permissive' }
   class { 'timezone': timezone  => 'US/Arizona' }
   class { 'tuned': profile      => 'desktop' }
@@ -12,7 +14,6 @@ class site::profile::desktop {
   $pkg = [
     'firefox',
     'thunderbird',
-    'hipchat',
     'hexchat',
     'rhythmbox',
     'pidgin',
