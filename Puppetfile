@@ -11,6 +11,7 @@ mod 'juniorsysadmin/irqbalance', '~> 1.0.4'
 mod 'thias/tuned', '~> 1.0.2'
 mod 'aco/yum_autoupdate', '~> 0.6.1'
 mod 'puppetlabs/ruby'
+mod 'juniorsysadmin/adoberepo', '~> 0.0.5'
 
 mod 'saz/sudo',
   :git => 'https://github.com/pbyrne413/puppet-sudo',

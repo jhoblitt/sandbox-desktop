@@ -1,6 +1,9 @@
 class site::profile::desktop {
   include ::hipchat
   include ::google_talkplugin
+  include ::adoberepo
+
+  package { 'flash-plugin': ensure => present }
 
   class { 'selinux': mode       => 'permissive' }
   class { 'timezone': timezone  => 'US/Arizona' }
