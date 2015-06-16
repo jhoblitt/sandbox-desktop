@@ -9,7 +9,6 @@ mod 'puppetlabs/firewall', '~> 1.5.0'
 mod 'saz/timezone', '~> 3.3.0'
 mod 'juniorsysadmin/irqbalance', '~> 1.0.4'
 mod 'thias/tuned', '~> 1.0.2'
-mod 'aco/yum_autoupdate', '~> 0.6.1'
 mod 'puppetlabs/ruby'
 mod 'juniorsysadmin/adoberepo', '~> 0.0.5'
 
@@ -41,5 +40,9 @@ mod 'jhoblitt/google_talkplugin', '~> 0.1'
 mod 'jhoblitt/bluejeans', '~> 0.1'
 mod 'jhoblitt/mono', '~> 0.1'
 mod 'jamesnetherton/google_chrome', '~> 0.1'
+
+mod 'aco/yum_autoupdate',
+  :git => 'git@github.com:jhoblitt/aco-yum_autoupdate.git',
+  :ref => 'bugfix/operatingsystemmajrelease-is-a-string'
 
 mod 'jhoblitt/site', :path => './site'
