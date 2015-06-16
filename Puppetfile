@@ -34,5 +34,6 @@ mod 'rcoleman/hipchat',
   :ref => 'feature/fedora-support'
 
 mod 'jhoblitt/google_talkplugin', '~> 0.1'
+mod 'jhoblitt/bluejeans', '~> 0.1'
 
 mod 'jhoblitt/site', :path => './site'

@@ -2,6 +2,7 @@ class site::profile::desktop {
   include ::hipchat
   include ::google_talkplugin
   include ::adoberepo
+  include ::bluejeans
 
   package { 'flash-plugin': ensure => present }
 
