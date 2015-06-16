@@ -45,4 +45,6 @@ mod 'aco/yum_autoupdate',
   :git => 'git@github.com:jhoblitt/aco-yum_autoupdate.git',
   :ref => 'bugfix/operatingsystemmajrelease-is-a-string'
 
+mod 'puppetlabs/gcc', '~> 0.3.0'
+
 mod 'jhoblitt/site', :path => './site'
