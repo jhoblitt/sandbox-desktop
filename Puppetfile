@@ -46,5 +46,6 @@ mod 'aco/yum_autoupdate',
   :ref => 'bugfix/operatingsystemmajrelease-is-a-string'
 
 mod 'puppetlabs/gcc', '~> 0.3.0'
+mod 'unibet/vagrant', '~> 0.1.13'
 
 mod 'jhoblitt/site', :path => './site'
