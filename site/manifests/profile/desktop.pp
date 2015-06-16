@@ -4,6 +4,7 @@ class site::profile::desktop {
   include ::adoberepo
   include ::bluejeans
   include ::java
+  include ::mono
 
   package { 'flash-plugin': ensure => present }
 
