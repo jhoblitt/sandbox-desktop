@@ -3,6 +3,7 @@ class site::profile::desktop {
   include ::google_talkplugin
   include ::adoberepo
   include ::bluejeans
+  include ::java
 
   package { 'flash-plugin': ensure => present }
 
@@ -23,7 +24,6 @@ class site::profile::desktop {
     'rhythmbox',
     'pidgin',
     'pidgin-otr',
-    'java-1.8.0-openjdk-devel',
     'google-talkplugin',
     'git',
   ]
