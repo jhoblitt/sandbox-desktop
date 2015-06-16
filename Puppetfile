@@ -17,23 +17,23 @@ mod 'saz/sudo',
   :ref => '30feebf655c4966b96ae328c40c1a2dc144c2e66'
 
 mod 'jfryman/selinux',
-  :git => 'git@github.com:jhoblitt/puppet-selinux.git',
-  :ref => 'feature/fedora-support'
+  :git => 'https://github.com/jhoblitt/puppet-selinux.git',
+  :ref => 'bugfix/fedora-support'
 
 mod 'danzilio/virtualbox',
-  :git => 'git@github.com:jhoblitt/danzilio-virtualbox.git',
+  :git => 'https://github.com/jhoblitt/danzilio-virtualbox.git',
   :ref => 'feature/fedora-support'
 
 mod 'puppetlabs/ntp',
-  :git => 'git@github.com:jhoblitt/puppetlabs-ntp.git',
+  :git => 'https://github.com/jhoblitt/puppetlabs-ntp.git',
   :ref => 'feature/fedora-support'
 
 mod 'rcoleman/hipchat',
-  :git => 'git@github.com:jhoblitt/puppet-module-hipchat.git',
+  :git => 'https://github.com/jhoblitt/puppet-module-hipchat.git',
   :ref => 'feature/fedora-support'
 
 mod 'puppetlabs/java',
-  :git => 'git@github.com:jhoblitt/puppetlabs-java.git',
+  :git => 'https://github.com/jhoblitt/puppetlabs-java.git',
   :ref => 'feature/fedora-support'
 
 mod 'jhoblitt/google_talkplugin', '~> 0.1'
@@ -42,7 +42,7 @@ mod 'jhoblitt/mono', '~> 0.1'
 mod 'jamesnetherton/google_chrome', '~> 0.1'
 
 mod 'aco/yum_autoupdate',
-  :git => 'git@github.com:jhoblitt/aco-yum_autoupdate.git',
+  :git => 'https://github.com/jhoblitt/aco-yum_autoupdate.git',
   :ref => 'bugfix/operatingsystemmajrelease-is-a-string'
 
 mod 'puppetlabs/gcc', '~> 0.3.0'
