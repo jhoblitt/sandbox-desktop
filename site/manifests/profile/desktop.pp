@@ -1,5 +1,6 @@
 class site::profile::desktop {
   include ::hipchat
+  include ::google_talkplugin
 
   class { 'selinux': mode       => 'permissive' }
   class { 'timezone': timezone  => 'US/Arizona' }

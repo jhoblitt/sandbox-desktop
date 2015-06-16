@@ -32,4 +32,6 @@ mod 'rcoleman/hipchat',
   :git => 'git@github.com:jhoblitt/puppet-module-hipchat.git',
   :ref => 'feature/fedora-support'
 
+mod 'jhoblitt/google_talkplugin', '~> 0.1'
+
 mod 'jhoblitt/site', :path => './site'
