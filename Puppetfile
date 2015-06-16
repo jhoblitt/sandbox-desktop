@@ -40,5 +40,6 @@ mod 'puppetlabs/java',
 mod 'jhoblitt/google_talkplugin', '~> 0.1'
 mod 'jhoblitt/bluejeans', '~> 0.1'
 mod 'jhoblitt/mono', '~> 0.1'
+mod 'jamesnetherton/google_chrome', '~> 0.1'
 
 mod 'jhoblitt/site', :path => './site'

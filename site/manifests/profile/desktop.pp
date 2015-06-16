@@ -5,6 +5,7 @@ class site::profile::desktop {
   include ::bluejeans
   include ::java
   include ::mono
+  include ::google_chrome
 
   package { 'flash-plugin': ensure => present }
 
