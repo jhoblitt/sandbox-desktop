@@ -28,5 +28,5 @@ class site::profile::desktop {
     'git',
   ]
 
+  ensure_packages($pkg)
 }
-
