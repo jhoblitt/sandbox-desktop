@@ -30,6 +30,8 @@ class site::profile::desktop {
     'pidgin-otr',
     'google-talkplugin',
     'git',
+    'aspell',
+    'aspell-en',
   ]
 
   ensure_packages($pkg)
