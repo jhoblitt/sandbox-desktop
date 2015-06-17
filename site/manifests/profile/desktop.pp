@@ -7,6 +7,7 @@ class site::profile::desktop {
   include ::mono
   include ::google_chrome
   include ::gcc
+  include ::rvm::dependencies
 
   package { 'flash-plugin': ensure => present }
 
