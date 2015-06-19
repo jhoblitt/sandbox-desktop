@@ -32,6 +32,7 @@ class site::profile::desktop {
     'git',
     'aspell',
     'aspell-en',
+    'gimp',
   ]
 
   ensure_packages($pkg)
