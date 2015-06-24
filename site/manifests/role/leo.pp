@@ -4,4 +4,5 @@ class site::role::leo {
   include ::virtualbox
   include ::vagrant
   include ::smartd
+  include ::mcelog
 }
