@@ -33,6 +33,7 @@ class site::profile::desktop {
     'aspell',
     'aspell-en',
     'gimp',
+    'graphviz',
   ]
 
   ensure_packages($pkg)
