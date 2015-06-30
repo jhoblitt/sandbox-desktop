@@ -34,6 +34,7 @@ class site::profile::desktop {
     'aspell-en',
     'gimp',
     'graphviz',
+    'geeqie',
   ]
 
   ensure_packages($pkg)
