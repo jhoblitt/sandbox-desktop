@@ -35,6 +35,7 @@ class site::profile::desktop {
     'gimp',
     'graphviz',
     'geeqie',
+    'lsscsi',
   ]
 
   ensure_packages($pkg)
