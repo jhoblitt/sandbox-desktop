@@ -11,7 +11,9 @@ class site::profile::desktop {
 
   package { 'flash-plugin': ensure => present }
 
-  class { 'selinux': mode       => 'permissive' }
+  class { 'selinux': mode => 'disabled' } ~>
+    reboot { 'selinux': }
+
   class { 'timezone': timezone  => 'US/Arizona' }
   class { 'tuned': profile      => 'desktop' }
   #class { 'firewall': ensure    => 'stopped' }

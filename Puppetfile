@@ -52,5 +52,6 @@ mod 'jhoblitt/smartd', '~> 2.4',
   :git => 'https://github.com/jhoblitt/puppet-smartd.git'
 mod 'jhoblitt/mcelog', '~> 1.1.2'
 mod 'saz/ssh', '~> 2.8'
+mod 'puppetlabs/reboot', '~> 1.0'
 
 mod 'jhoblitt/site', :path => './site'
