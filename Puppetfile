@@ -48,7 +48,8 @@ mod 'aco/yum_autoupdate',
 mod 'puppetlabs/gcc', '~> 0.3.0'
 mod 'unibet/vagrant', '~> 0.1.13'
 mod 'maestrodev/rvm', '~> 1.12.0'
-mod 'jhoblitt/smartd', '~> 2.4', :git => 'git@github.com:jhoblitt/puppet-smartd.git'
+mod 'jhoblitt/smartd', '~> 2.4',
+  :git => 'https://github.com/jhoblitt/puppet-smartd.git'
 mod 'jhoblitt/mcelog', '~> 1.1.2'
 mod 'saz/ssh', '~> 2.8'
 
