@@ -36,6 +36,7 @@ class site::profile::desktop {
     'graphviz',
     'geeqie',
     'lsscsi',
+    'ltunify',
   ]
 
   ensure_packages($pkg)
