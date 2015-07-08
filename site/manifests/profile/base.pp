@@ -21,4 +21,11 @@ class site::profile::base {
       update_cmd   => 'security',
     }
   }
+
+  ensure_packages([
+    'git',
+    'lsscsi',
+    'screen',
+    'tree',
+  ])
 }

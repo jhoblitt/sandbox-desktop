@@ -22,21 +22,19 @@ class site::profile::desktop {
   }
 
   $pkg = [
-    'firefox',
-    'thunderbird',
-    'hexchat',
-    'rhythmbox',
-    'pidgin',
-    'pidgin-otr',
-    'google-talkplugin',
-    'git',
     'aspell',
     'aspell-en',
-    'gimp',
-    'graphviz',
+    'firefox',
     'geeqie',
-    'lsscsi',
+    'gimp',
+    'google-talkplugin',
+    'graphviz',
+    'hexchat',
     'ltunify',
+    'pidgin',
+    'pidgin-otr',
+    'rhythmbox',
+    'thunderbird',
   ]
 
   ensure_packages($pkg)
