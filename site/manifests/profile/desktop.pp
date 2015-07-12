@@ -1,15 +1,13 @@
 class site::profile::desktop {
   include ::hipchat
   include ::google_talkplugin
-  include ::adoberepo
   include ::bluejeans
   include ::java
   include ::mono
   include ::google_chrome
   include ::gcc
+  include ::flash
   include ::rvm::dependencies
-
-  package { 'flash-plugin': ensure => present }
 
   class { 'selinux': mode       => 'permissive' }
   class { 'timezone': timezone  => 'US/Arizona' }

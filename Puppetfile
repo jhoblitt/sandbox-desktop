@@ -10,7 +10,6 @@ mod 'saz/timezone', '~> 3.3.0'
 mod 'juniorsysadmin/irqbalance', '~> 1.0.4'
 mod 'thias/tuned', '~> 1.0.2'
 mod 'puppetlabs/ruby'
-mod 'juniorsysadmin/adoberepo', '~> 0.0.5'
 
 mod 'saz/sudo',
   :git => 'https://github.com/pbyrne413/puppet-sudo',
@@ -52,5 +51,6 @@ mod 'jhoblitt/smartd', '~> 2.4',
   :git => 'https://github.com/jhoblitt/puppet-smartd.git'
 mod 'jhoblitt/mcelog', '~> 1.1.2'
 mod 'saz/ssh', '~> 2.8'
+mod 'jhoblitt/flash', '~> 0.1'
 
 mod 'jhoblitt/site', :path => './site'
