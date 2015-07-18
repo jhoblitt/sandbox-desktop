@@ -9,7 +9,7 @@ class site::profile::desktop {
   include ::flash
   include ::rvm::dependencies
 
-  class { 'selinux': mode       => 'permissive' }
+  class { 'selinux': mode       => 'disabled' }
   class { 'timezone': timezone  => 'US/Arizona' }
   class { 'tuned': profile      => 'desktop' }
   #class { 'firewall': ensure    => 'stopped' }
