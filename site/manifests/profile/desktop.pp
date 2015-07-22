@@ -33,6 +33,7 @@ class site::profile::desktop {
     'pidgin-otr',
     'rhythmbox',
     'thunderbird',
+    'vim-X11',
   ]
 
   ensure_packages($pkg)
