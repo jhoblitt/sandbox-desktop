@@ -27,5 +27,6 @@ class site::profile::base {
     'lsscsi',
     'screen',
     'tree',
+    'vim-enhanced',
   ])
 }
