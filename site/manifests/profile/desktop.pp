@@ -32,6 +32,7 @@ class site::profile::desktop {
     'pidgin',
     'pidgin-otr',
     'rhythmbox',
+    'ShellCheck',
     'thunderbird',
     'vim-X11',
   ]
