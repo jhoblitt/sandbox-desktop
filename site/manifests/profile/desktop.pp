@@ -7,6 +7,7 @@ class site::profile::desktop {
   include ::google_chrome
   include ::gcc
   include ::flash
+  include ::rvm
   include ::rvm::dependencies
 
   class { 'selinux': mode       => 'disabled' }

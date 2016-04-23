@@ -1,0 +1,12 @@
+rvm::system_rubies:
+  'ruby-2.1':
+    default_use: true
+
+rvm::system_users:
+  - jhoblitt
+
+rvm::rvm_gems:
+  'bundler':
+    name: 'bundler'
+    ruby_version: 'ruby-2.1'
+    ensure: latest
